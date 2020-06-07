@@ -1,7 +1,6 @@
 package com.hxq.juc;
 
 import java.util.concurrent.*;
-import java.util.concurrent.atomic.*;
 
 public class ExceptionSynchronizedTest {
     private int count = 0;
@@ -25,7 +24,7 @@ public class ExceptionSynchronizedTest {
     }
 
     public static void main(String[] args) {
-        LongAdder
+
 
         ExceptionSynchronizedTest test = new ExceptionSynchronizedTest();
         new Thread(() -> {
